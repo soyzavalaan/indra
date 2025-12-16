@@ -378,7 +378,11 @@
 
                 <h3>Contexto del Volumen</h3>
                 <div class="alert alert-info">
-                    <strong>📊 Volumen actual:</strong> Se reciben aproximadamente <strong>5,000 facturas mensuales</strong>, de las cuales <strong>3,500 facturas</strong> (70%) llegan a través de correo electrónico y son el alcance de esta automatización.
+                    <strong>📊 Volumen total:</strong> Se procesan aproximadamente <strong>5,000 facturas mensuales</strong>:
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li><strong>3,500 facturas</strong> (70%) → Recibidas por <strong>correo electrónico</strong> (automatización completa)</li>
+                        <li><strong>1,500 facturas</strong> (30%) → <strong>Extracción/carga manual</strong> (otros canales)</li>
+                    </ul>
                 </div>
 
                 <h3>Situación Actual</h3>
@@ -743,7 +747,7 @@
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;"><strong>Actual (Alcance)</strong></td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;"><strong>3,500 facturas</strong></td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;"><strong>5,000 facturas</strong><br><small>(3,500 correo + 1,500 manual)</small></td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;"><strong>Alto</strong></td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;"><strong>10 meses*</strong></td>
                     </tr>
@@ -769,7 +773,9 @@
                     <div class="function-item">
                         <div class="function-title">Estimación de Ahorro Potencial</div>
                         <div class="function-description">
-                            <strong>Escenario de referencia:</strong> 3,500 facturas mensuales (vía correo electrónico)<br><br>
+                            <strong>Escenario de referencia:</strong> 5,000 facturas mensuales totales<br>
+                            <small>• 3,500 facturas vía correo (automatización completa)</small><br>
+                            <small>• 1,500 facturas carga manual (otros canales)</small><br><br>
                             <strong>Situación actual (estimada):</strong><br>
                             • Tiempo manual por factura: 7 minutos promedio<br>
                             • Horas dedicadas estimadas: Variable según volumen<br>
@@ -866,7 +872,7 @@
                         <div class="agent-icon">👔</div>
                         <div class="agent-title">
                             <h3>Líder de Proyecto / Product Owner</h3>
-                            <div class="agent-subtitle">1 persona | 640 horas (16 semanas × 40 hrs) | Dedicación por proyecto</div>
+                            <div class="agent-subtitle">1 persona | 320 horas (12 semanas × ~27 hrs) | Dedicación por proyecto</div>
                         </div>
                     </div>
                     <div class="function-item">
@@ -881,7 +887,7 @@
                     <div class="function-item">
                         <div class="function-title">Modalidad de Asignación</div>
                         <div class="function-description">
-                            <strong>⚠️ Nota:</strong> El Líder de Proyecto estará disponible durante las horas asignadas al proyecto (640 hrs), pero <strong>no es personal de planta exclusivo</strong>. Puede atender otras actividades ajenas al proyecto actual, garantizando disponibilidad según el cronograma establecido.
+                            <strong>⚠️ Nota:</strong> El Líder de Proyecto estará disponible durante las horas asignadas al proyecto (320 hrs), pero <strong>no es personal de planta exclusivo</strong>. Puede atender otras actividades ajenas al proyecto actual, garantizando disponibilidad según el cronograma establecido.
                         </div>
                     </div>
                     <div class="function-item">
@@ -897,7 +903,7 @@
                         <div class="agent-icon">🧠</div>
                         <div class="agent-title">
                             <h3>Ingeniero de IA / ML Engineer</h3>
-                            <div class="agent-subtitle">2 personas | 320 horas c/u (Semanas 3-10, 8 sem × 40 hrs)</div>
+                            <div class="agent-subtitle">1 persona | 320 horas (Semanas 2-9, 8 sem × 40 hrs)</div>
                         </div>
                     </div>
                     <div class="function-item">
@@ -944,53 +950,29 @@
                     </div>
                 </div>
 
-                <div class="agent-card">
-                    <div class="agent-header">
-                        <div class="agent-icon">🎨</div>
-                        <div class="agent-title">
-                            <h3>Desarrollador Frontend</h3>
-                            <div class="agent-subtitle">1 persona | 200 horas (Semanas 7-11, 5 sem × 40 hrs)</div>
-                        </div>
-                    </div>
-                    <div class="function-item">
-                        <div class="function-title">Responsabilidades</div>
-                        <div class="function-description">
-                            • Desarrollo de dashboard de monitoreo<br>
-                            • Interfaz de revisión y corrección manual<br>
-                            • Visualización de reportes y métricas<br>
-                            • Panel de configuración y administración
-                        </div>
-                    </div>
-                    <div class="function-item">
-                        <div class="function-title">Perfil Requerido</div>
-                        <div class="function-description">
-                            Experiencia de 3+ años en React/Vue.js. Conocimiento de diseño UX/UI. Experiencia en dashboards y visualización de datos.
-                        </div>
-                    </div>
-                </div>
+                <!-- Frontend eliminado en versión optimizada - Interfaz mínima integrada en Backend -->
 
                 <div class="agent-card">
                     <div class="agent-header">
                         <div class="agent-icon">☁️</div>
                         <div class="agent-title">
                             <h3>Ingeniero DevOps / Cloud</h3>
-                            <div class="agent-subtitle">1 persona | 160 horas (Semanas 5-12, 8 sem × 20 hrs)</div>
+                            <div class="agent-subtitle">1 persona | 80 horas (Semanas 4-11, 8 sem × 10 hrs)</div>
                         </div>
                     </div>
                     <div class="function-item">
                         <div class="function-title">Responsabilidades</div>
                         <div class="function-description">
                             • Configuración de infraestructura cloud (AWS/Azure)<br>
-                            • Implementación de CI/CD pipelines<br>
-                            • Containerización con Docker y Kubernetes<br>
-                            • Monitoreo, logging y alertas<br>
-                            • Seguridad y backup de datos
+                            • Containerización con Docker<br>
+                            • Configuración básica de CI/CD<br>
+                            • Monitoreo y backup de datos
                         </div>
                     </div>
                     <div class="function-item">
                         <div class="function-title">Perfil Requerido</div>
                         <div class="function-description">
-                            Experiencia de 3+ años en DevOps. Certificación AWS/Azure. Dominio de Docker, Kubernetes, Terraform.
+                            Experiencia de 2+ años en DevOps. Conocimiento de AWS/Azure. Dominio de Docker.
                         </div>
                     </div>
                 </div>
@@ -1000,28 +982,27 @@
                         <div class="agent-icon">🔍</div>
                         <div class="agent-title">
                             <h3>Analista QA / Tester</h3>
-                            <div class="agent-subtitle">1 persona | 240 horas (Semanas 10-15, 6 sem × 40 hrs)</div>
+                            <div class="agent-subtitle">1 persona | 120 horas (Semanas 8-11, 4 sem × 30 hrs)</div>
                         </div>
                     </div>
                     <div class="function-item">
                         <div class="function-title">Responsabilidades</div>
                         <div class="function-description">
-                            • Diseño y ejecución de casos de prueba<br>
+                            • Diseño y ejecución de casos de prueba esenciales<br>
                             • Validación de precisión de extracción de IA<br>
                             • Pruebas de integración end-to-end<br>
-                            • Automatización de pruebas<br>
                             • Documentación de bugs y seguimiento
                         </div>
                     </div>
                     <div class="function-item">
                         <div class="function-title">Perfil Requerido</div>
                         <div class="function-description">
-                            Experiencia de 2+ años en QA. Conocimiento de herramientas de automatización. Experiencia en testing de sistemas de IA deseable.
+                            Experiencia de 2+ años en QA. Experiencia en testing de sistemas de IA deseable.
                         </div>
                     </div>
                 </div>
 
-                <h3>Resumen del Equipo (Basado en Diagrama de Gantt)</h3>
+                <h3>Resumen del Equipo - Versión Optimizada (Esencial)</h3>
                 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
                     <tr style="background: #667eea; color: white;">
                         <th style="padding: 15px; text-align: left; border: 1px solid #ddd;">Rol</th>
@@ -1032,46 +1013,120 @@
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">Líder de Proyecto</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">640 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S1-S16</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">320 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S1-S12</td>
                     </tr>
                     <tr>
                         <td style="padding: 15px; border: 1px solid #ddd;">Ingeniero IA/ML</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">2</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">640 hrs (320 c/u)</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S3-S10</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">320 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S2-S9</td>
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">Desarrollador Backend</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">200 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S5-S9</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 15px; border: 1px solid #ddd;">Desarrollador Frontend</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">200 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S7-S11</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S4-S8</td>
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">Ingeniero DevOps</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">160 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S5-S12</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">80 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S4-S11</td>
                     </tr>
                     <tr>
                         <td style="padding: 15px; border: 1px solid #ddd;">Analista QA</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">240 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S10-S15</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">120 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">S8-S11</td>
                     </tr>
                     <tr style="background: #667eea; color: white; font-weight: bold;">
                         <td style="padding: 15px; border: 1px solid #ddd;">TOTAL</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">7 personas</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">2,080 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">16 semanas</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">5 personas</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1,040 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">12 semanas</td>
                     </tr>
                 </table>
+                
+                <div class="alert alert-info">
+                    <strong>📋 Versión Optimizada:</strong> Se ha reducido el equipo manteniendo solo los elementos esenciales. Se elimina Frontend dedicado (interfaz mínima integrada en Backend), se reduce PM al 50%, un solo ingeniero IA/ML, DevOps simplificado (Docker sin Kubernetes), y QA focalizado.
+                </div>
+
+                <h3>Distribución de Horas por Fase</h3>
+                <p style="color: #666; margin-bottom: 15px;">Desglose de horas requeridas por cada integrante del equipo según las fases del proyecto: <strong>Levantamiento</strong> (descubrimiento y diseño), <strong>Desarrollo</strong> (construcción e integración) y <strong>Pruebas</strong> (QA, piloto y despliegue).</p>
+                
+                <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+                    <tr style="background: #667eea; color: white;">
+                        <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Rol</th>
+                        <th style="padding: 12px; text-align: center; border: 1px solid #ddd;">📋 Levantamiento<br><small>(S1-S2)</small></th>
+                        <th style="padding: 12px; text-align: center; border: 1px solid #ddd;">⚙️ Desarrollo<br><small>(S3-S9)</small></th>
+                        <th style="padding: 12px; text-align: center; border: 1px solid #ddd;">🧪 Pruebas<br><small>(S8-S12)</small></th>
+                        <th style="padding: 12px; text-align: center; border: 1px solid #ddd; background: #5a6fd6;">Total</th>
+                    </tr>
+                    <tr style="background: #f8f9fa;">
+                        <td style="padding: 12px; border: 1px solid #ddd;"><strong>Líder de Proyecto</strong></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">80 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">160 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">80 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; font-weight: bold;">320 hrs</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;"><strong>Ingeniero IA/ML</strong></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">40 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">240 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">40 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; font-weight: bold;">320 hrs</td>
+                    </tr>
+                    <tr style="background: #f8f9fa;">
+                        <td style="padding: 12px; border: 1px solid #ddd;"><strong>Desarrollador Backend</strong></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">20 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">160 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">20 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; font-weight: bold;">200 hrs</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px; border: 1px solid #ddd;"><strong>Ingeniero DevOps</strong></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">8 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">48 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">24 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; font-weight: bold;">80 hrs</td>
+                    </tr>
+                    <tr style="background: #f8f9fa;">
+                        <td style="padding: 12px; border: 1px solid #ddd;"><strong>Analista QA</strong></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">12 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">28 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">80 hrs</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; font-weight: bold;">120 hrs</td>
+                    </tr>
+                    <tr style="background: #e8f4fd; font-weight: bold;">
+                        <td style="padding: 12px; border: 1px solid #ddd;">Subtotal por Fase</td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">160 hrs<br><small>(15%)</small></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">636 hrs<br><small>(61%)</small></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd;">244 hrs<br><small>(24%)</small></td>
+                        <td style="padding: 12px; text-align: center; border: 1px solid #ddd; background: #667eea; color: white;">1,040 hrs</td>
+                    </tr>
+                </table>
+
+                <div class="benefit-grid" style="margin-top: 20px;">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📋</div>
+                        <div style="font-size: 1.8em; font-weight: bold;">160 hrs</div>
+                        <div style="font-weight: bold;">Levantamiento</div>
+                        <div style="font-size: 0.85em; color: #28a745;">Análisis, diseño y arquitectura</div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⚙️</div>
+                        <div style="font-size: 1.8em; font-weight: bold;">636 hrs</div>
+                        <div style="font-weight: bold;">Desarrollo</div>
+                        <div style="font-size: 0.85em; color: #28a745;">Construcción, IA, backend, infra</div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🧪</div>
+                        <div style="font-size: 1.8em; font-weight: bold;">244 hrs</div>
+                        <div style="font-weight: bold;">Pruebas</div>
+                        <div style="font-size: 0.85em; color: #28a745;">QA, piloto y despliegue</div>
+                    </div>
+                </div>
             </div>
 
             <!-- SECCIÓN 8: COSTOS -->
@@ -1093,15 +1148,15 @@
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">Líder de Proyecto</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">640 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">320 hrs</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$650 MXN</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$416,000</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$208,000</td>
                     </tr>
                     <tr>
-                        <td style="padding: 15px; border: 1px solid #ddd;">Ingenieros IA/ML (2)</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">640 hrs</td>
+                        <td style="padding: 15px; border: 1px solid #ddd;">Ingeniero IA/ML</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">320 hrs</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$800 MXN</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$512,000</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$256,000</td>
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">Desarrollador Backend</td>
@@ -1110,33 +1165,31 @@
                         <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$140,000</td>
                     </tr>
                     <tr>
-                        <td style="padding: 15px; border: 1px solid #ddd;">Desarrollador Frontend</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">200 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$600 MXN</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$120,000</td>
+                        <td style="padding: 15px; border: 1px solid #ddd;">Ingeniero DevOps</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">80 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$750 MXN</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$60,000</td>
                     </tr>
                     <tr style="background: #f8f9fa;">
-                        <td style="padding: 15px; border: 1px solid #ddd;">Ingeniero DevOps</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">160 hrs</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$750 MXN</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$120,000</td>
-                    </tr>
-                    <tr>
                         <td style="padding: 15px; border: 1px solid #ddd;">Analista QA</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">240 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">120 hrs</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$500 MXN</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$120,000</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$60,000</td>
                     </tr>
                     <tr style="background: #e8f4fd;">
                         <td style="padding: 15px; border: 1px solid #ddd; font-weight: bold;">Subtotal Equipo</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">2,080 hrs</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1,040 hrs</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd; font-weight: bold;">$1,428,000 MXN</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd; font-weight: bold;">$724,000 MXN</td>
                     </tr>
                 </table>
 
                 <div class="alert alert-success">
-                    <strong>💶 Conversión a Euros:</strong> $1,428,000 MXN ÷ 19.87 = <strong>€71,867 EUR</strong> (tasa fija: 19.87 MXN/EUR)
+                    <strong>💶 Conversión a Euros:</strong> $724,000 MXN ÷ 19.87 = <strong>€36,437 EUR</strong> (tasa fija: 19.87 MXN/EUR)
+                </div>
+
+                <div class="alert alert-info">
+                    <strong>📉 Ahorro vs Versión Completa:</strong> Esta versión optimizada representa un <strong>ahorro de $704,000 MXN (€35,430 EUR)</strong> respecto a la propuesta original de $1,428,000 MXN, equivalente a una <strong>reducción del 49%</strong> manteniendo la funcionalidad esencial.
                 </div>
 
                 <h3>2. Costos de Infraestructura (Mensual)</h3>
@@ -1180,7 +1233,7 @@
                 </table>
                 <p style="font-size: 0.9em; color: #666;">Equivalente: €644 EUR/mes (tasa 19.87)</p>
 
-                <h3>3. Costos de APIs de IA (Mensual - Para 3,500 facturas)</h3>
+                <h3>3. Costos de APIs de IA (Mensual - Para 5,000 facturas)</h3>
 
                 <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
                     <tr style="background: #667eea; color: white;">
@@ -1192,36 +1245,36 @@
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">OpenAI GPT-4 Vision</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$0.20 MXN/imagen + tokens</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">3,500 facturas</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$15,000</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">5,000 facturas</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$21,500</td>
                     </tr>
                     <tr>
                         <td style="padding: 15px; border: 1px solid #ddd;">Claude 3 (Respaldo)</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$0.30 MXN/1K tokens</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1,000 facturas</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$5,000</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">1,500 facturas</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$7,500</td>
                     </tr>
                     <tr style="background: #f8f9fa;">
                         <td style="padding: 15px; border: 1px solid #ddd;">OCR Adicional (Azure/Google)</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">$30 MXN/1K páginas</td>
-                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">5,000 páginas</td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$150</td>
+                        <td style="padding: 15px; text-align: center; border: 1px solid #ddd;">7,000 páginas</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd;">$210</td>
                     </tr>
                     <tr style="background: #e8f4fd;">
                         <td style="padding: 15px; border: 1px solid #ddd; font-weight: bold;">Subtotal APIs IA</td>
                         <td style="padding: 15px; text-align: center; border: 1px solid #ddd;" colspan="2"></td>
-                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd; font-weight: bold;">$20,150/mes</td>
+                        <td style="padding: 15px; text-align: right; border: 1px solid #ddd; font-weight: bold;">$29,210/mes</td>
                     </tr>
                 </table>
-                <p style="font-size: 0.9em; color: #666;">Equivalente: €1,014 EUR/mes (tasa 19.87)</p>
+                <p style="font-size: 0.9em; color: #666;">Equivalente: €1,470 EUR/mes (tasa 19.87)</p>
 
                 <h3>4. Resumen de Inversión Total</h3>
 
                 <div class="benefit-grid">
                     <div class="benefit-item">
                         <div class="benefit-icon">🏗️</div>
-                        <div style="font-size: 1.5em; font-weight: bold;">$1,428,000 MXN</div>
-                        <div style="font-size: 1em;">€71,867 EUR</div>
+                        <div style="font-size: 1.5em; font-weight: bold;">$724,000 MXN</div>
+                        <div style="font-size: 1em;">€36,437 EUR</div>
                         <div>Desarrollo inicial</div>
                         <div style="font-size: 0.8em; margin-top: 5px;">(pago único)</div>
                     </div>
@@ -1234,10 +1287,10 @@
                     </div>
                     <div class="benefit-item">
                         <div class="benefit-icon">🤖</div>
-                        <div style="font-size: 1.5em; font-weight: bold;">$20,150/mes</div>
-                        <div style="font-size: 1em;">€1,014 EUR</div>
+                        <div style="font-size: 1.5em; font-weight: bold;">$29,210/mes</div>
+                        <div style="font-size: 1em;">€1,470 EUR</div>
                         <div>APIs de IA</div>
-                        <div style="font-size: 0.8em; margin-top: 5px;">(3,500 facturas)</div>
+                        <div style="font-size: 0.8em; margin-top: 5px;">(5,000 facturas)</div>
                     </div>
                     <div class="benefit-item">
                         <div class="benefit-icon">🔧</div>
@@ -1271,7 +1324,7 @@
                     <table style="width: 100%; border-collapse: collapse; margin: 20px 0; color: white;">
                         <tr>
                             <td style="padding: 10px;">Escenario de referencia:</td>
-                            <td style="padding: 10px; text-align: right;">3,500 facturas/mes (vía correo)</td>
+                            <td style="padding: 10px; text-align: right;">5,000 facturas/mes total<br><small>(3,500 correo + 1,500 manual)</small></td>
                         </tr>
                         <tr>
                             <td style="padding: 10px;">Reducción de tiempo estimada:</td>
@@ -1304,11 +1357,11 @@
 
                 <div class="benefit-grid">
                     <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 3px solid #28a745;">
-                        <div style="color: #28a745; font-weight: bold; font-size: 1.3em; margin-bottom: 15px;">📦 Opción A: Proyecto Llave en Mano</div>
+                        <div style="color: #28a745; font-weight: bold; font-size: 1.3em; margin-bottom: 15px;">📦 Opción A: Proyecto Llave en Mano (Optimizado)</div>
                         <ul style="color: #555; margin-left: 20px;">
-                            <li>Precio fijo: <strong>$1,428,000 MXN</strong></li>
-                            <li>Equivalente: <strong>€71,867 EUR</strong></li>
-                            <li>Incluye desarrollo completo (2,080 hrs)</li>
+                            <li>Precio fijo: <strong>$724,000 MXN</strong></li>
+                            <li>Equivalente: <strong>€36,437 EUR</strong></li>
+                            <li>Incluye desarrollo esencial (1,040 hrs)</li>
                             <li>3 meses de garantía post-implementación</li>
                             <li>Documentación y capacitación</li>
                             <li>Pago: 40% inicio, 30% mitad, 30% entrega</li>
@@ -1317,11 +1370,10 @@
                     <div style="background: white; padding: 25px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border: 3px solid #667eea;">
                         <div style="color: #667eea; font-weight: bold; font-size: 1.3em; margin-bottom: 15px;">📊 Opción B: Time & Materials</div>
                         <ul style="color: #555; margin-left: 20px;">
-                            <li>Tarifa promedio: <strong>$687 MXN/hora</strong></li>
+                            <li>Tarifa promedio: <strong>$696 MXN/hora</strong></li>
                             <li>Equivalente: <strong>€35 EUR/hora</strong></li>
-                            <li>Flexibilidad en alcance</li>
                             <li>Facturación quincenal</li>
-                            <li>Estimación: $1,500,000 MXN</li>
+                            <li>Estimación: $800,000 MXN</li>
                             <li>Ideal para requerimientos cambiantes</li>
                         </ul>
                     </div>
@@ -1337,7 +1389,7 @@
                 <h2>📅 Cronograma de Implementación</h2>
 
                 <div class="alert alert-info">
-                    <strong>Duración Total:</strong> 16 semanas (4 meses) desde el kick-off hasta producción.
+                    <strong>Duración Total:</strong> 12 semanas (3 meses) desde el kick-off hasta producción.
                 </div>
 
                 <h3>Fases del Proyecto</h3>
@@ -1487,7 +1539,7 @@
                         <div class="agent-icon">🚀</div>
                         <div class="agent-title">
                             <h3>Fase 6: Piloto y Despliegue</h3>
-                            <div class="agent-subtitle">Semanas 14-16 | Duración: 3 semanas</div>
+                            <div class="agent-subtitle">Semanas 10-12 | Duración: 3 semanas</div>
                         </div>
                     </div>
                     <div class="function-item">
@@ -1511,7 +1563,7 @@
                     </div>
                 </div>
 
-                <h3>Diagrama de Gantt Simplificado</h3>
+                <h3>Diagrama de Gantt Simplificado (Versión Optimizada - 12 semanas)</h3>
 
                 <table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.9em;">
                     <tr style="background: #667eea; color: white;">
@@ -1522,14 +1574,10 @@
                         <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">S7-8</th>
                         <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">S9-10</th>
                         <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">S11-12</th>
-                        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">S13-14</th>
-                        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">S15-16</th>
                     </tr>
                     <tr>
                         <td style="padding: 10px; border: 1px solid #ddd;">1. Descubrimiento</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #667eea;">██</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
@@ -1544,46 +1592,27 @@
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px; border: 1px solid #ddd;">3. Backend</td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">3. Backend + UI Mínima</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #28a745;">██</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #28a745;">██</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #28a745;">█</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                     </tr>
                     <tr style="background: #f8f9fa;">
-                        <td style="padding: 10px; border: 1px solid #ddd;">4. Frontend</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #ffc107;">██</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #ffc107;">██</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #ffc107;">█</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border: 1px solid #ddd;">5. QA y Pruebas</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
+                        <td style="padding: 10px; border: 1px solid #ddd;">4. QA y Pruebas</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #17a2b8;">█</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #17a2b8;">██</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #17a2b8;">█</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                     </tr>
-                    <tr style="background: #f8f9fa;">
-                        <td style="padding: 10px; border: 1px solid #ddd;">6. Piloto y Deploy</td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
-                        <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #ddd;">5. Piloto y Deploy</td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd;"></td>
@@ -1592,6 +1621,10 @@
                         <td style="padding: 10px; text-align: center; border: 1px solid #ddd; background: #dc3545;">██</td>
                     </tr>
                 </table>
+                
+                <p style="font-size: 0.9em; color: #666; font-style: italic;">
+                    📝 Nota: En la versión optimizada se elimina la fase de Frontend dedicado. La interfaz mínima de monitoreo se integra en la fase de Backend.
+                </p>
 
                 <h3>Hitos Principales</h3>
 
@@ -1608,18 +1641,18 @@
                     </div>
                     <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #28a745;">
                         <div style="color: #28a745; font-weight: bold;">📌 Hito 3</div>
-                        <div style="font-weight: bold; margin: 10px 0;">Semana 11</div>
+                        <div style="font-weight: bold; margin: 10px 0;">Semana 9</div>
                         <div style="color: #555;">Sistema integrado</div>
                     </div>
                     <div style="background: white; padding: 20px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); border-left: 5px solid #dc3545;">
                         <div style="color: #dc3545; font-weight: bold;">📌 Hito 4</div>
-                        <div style="font-weight: bold; margin: 10px 0;">Semana 16</div>
+                        <div style="font-weight: bold; margin: 10px 0;">Semana 12</div>
                         <div style="color: #555;">Go-Live Producción</div>
                     </div>
                 </div>
 
                 <div class="alert alert-success">
-                    <strong>✅ Compromiso:</strong> Entrega del sistema funcional en 16 semanas, con posibilidad de adelantar el piloto si las fases anteriores se completan antes de lo previsto.
+                    <strong>✅ Compromiso:</strong> Entrega del sistema funcional en 12 semanas, con posibilidad de adelantar el piloto si las fases anteriores se completan antes de lo previsto.
                 </div>
             </div>
         </div>
